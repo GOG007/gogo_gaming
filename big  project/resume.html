@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Gadhave - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1, h2, h3 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .section {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+        .glow {
+            font-family: 'Arial Black', sans-serif;
+            font-size: 1.1em;
+            color: #333;
+            text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00;
+        }
+
+        /*button*/
+        .submarine-button {
+  background-color: #af7a4c;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  position: relative;
+  overflow: hidden;
+}
+
+.submarine-button::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(162, 51, 0, 0.688);
+  top: 0;
+  left: -100%;
+  transition: left 0.4s;
+  z-index: -1;
+}
+
+.submarine-button:hover::before {
+  left: 0;
+}
+
+.submarine-button:active {
+  transform: translateY(2px);
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px; /* Adjust as needed */
+  padding: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header style="text-align: center; padding-bottom: 20px; border-bottom: 2px solid #333;">
+            <h1 style="font-size: 2.5em; color: #333; margin-bottom: 5px;">Om Gadhave</h1>
+            <p style="font-size: 1.2em; color: #666; margin: 0;">Email: omgadhave01082004@email.com | Phone: 8888970502 | LinkedIn: not avalbel</p>
+        </header>
+        
+        <div class="section">
+                <h2 class="glow" style="font-family: 'Arial Black', sans-serif; font-size: 1.5em; color: #333; text-transform: uppercase; margin-bottom: 10px;">Summary</h2>
+                <p style="font-family: 'Georgia', serif; font-size: 1.1em; color: #666; line-height: 1.6;">Aspiring software developer Om Gadhave combines a passion for coding with a dedication to continuous learning and growth. With a solid foundation in programming languages such as Java and Python, I am eager to contribute to innovative projects and collaborate with like-minded professionals. Beyond coding, I am an avid gamer, leveraging strategic thinking and problem-solving skills in virtual worlds. Additionally, I am fueled by a curiosity to explore new places, which fosters adaptability and a global perspective. Seeking opportunities to apply technical expertise, embrace challenges, and make meaningful contributions to dynamic teams.</p>
+        </div>
+        
+        <div class="section">
+            <h2 class="glow" style="text-transform: uppercase; margin-bottom: 10px;">Education</h2>
+            <h3 style="font-family: 'Arial Black', sans-serif; font-size: 1.2em; color: #333;">(BCS)cs, Major</h3>
+            <p style="font-family: 'Georgia', serif; font-size: 1.1em; color: #666; line-height: 1.6;">Jilha parishad prathamic school khandala / Rajendra Junior Collage khandala / Jaikranti Collage katrtaj / Univercity PUNE, 2022-2025</p>
+        </div>
+
+        <div class="section">
+            <h2 class="glow" style="text-transform: uppercase; margin-bottom: 10px;">Experience</h2>
+            <h3 style="font-family: 'Arial Black', sans-serif; font-size: 1.2em; color: #333;">Intern</h3>
+            <p style="font-family: 'Georgia', serif; font-size: 1.1em; color: #666; line-height: 1.6;">Nipro company | 06/06/2024 - 06/08/2024</p>
+            <ul style="list-style-type: disc; margin-left: 20px;">
+                <li>I got first prise in web development</li>
+                <li>I have done many compititions</li>
+                <!-- Add more items as needed -->
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 class="glow" style="text-transform: uppercase; margin-bottom: 10px;">Skills</h2>
+            <ul style="list-style-type: disc; margin-left: 20px;"></ul>
+                <li>problem solving</li>
+                <li>devlopment</li>
+                <li>web devlopment</li>
+                <li>game devlopment</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+        <div class="section">
+            <div class="container1">
+        <a href="index1.php" class="submarine-button">
+            exit
+        </a>
+    </div>
+    </div>
+    </div>
+    
+</body>
+</html>
