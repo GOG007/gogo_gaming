@@ -1,2 +1,2 @@
 # gogo_gaming
-i create this sit for myself and for job parpuse
+big  project/index1.php
