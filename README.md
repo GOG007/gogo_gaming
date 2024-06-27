@@ -1,2 +1,2 @@
 #gogo gaming 
-index.php
+https://gog007.github.io/gogo_gaming/big project/index.php
