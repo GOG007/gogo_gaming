@@ -43,6 +43,11 @@ const songs = [{
         name: "Taylor Swift",
         source: "https://github.com/ecemgo/mini-samples-great-tricks/raw/main/song-list/Taylor-Swift-Delicate.mp3",
     },
+    {
+        title: "Let Me Love You",
+        name: "Justin Biber",
+        source: "https://pagal-world.com.in/files/download/id/659",
+    },
 ];
 
 let currentSongIndex = 3;
